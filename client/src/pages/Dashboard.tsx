@@ -7,8 +7,9 @@ import { StatWidget } from "@/components/StatsDisplay";
 import { TransactionForm } from "@/components/TransactionForm";
 import { 
   Shield, Activity, Lock, Server, Cpu, Radio, AlertTriangle, 
-  Terminal, Database, Globe, Zap, cn
+  Terminal, Database, Globe, Zap
 } from "lucide-react";
+import { cn } from "@/lib/utils";
 import { LineChart, Line, ResponsiveContainer, XAxis, YAxis, Tooltip, BarChart, Bar } from "recharts";
 import { format } from "date-fns";
 

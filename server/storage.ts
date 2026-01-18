@@ -8,7 +8,7 @@ import {
   type SecurityLogResponse,
   type SystemMetricResponse
 } from "@shared/schema";
-import { desc, limit } from "drizzle-orm";
+import { desc } from "drizzle-orm";
 
 export interface IStorage {
   getTransactions(): Promise<TransactionResponse[]>;
